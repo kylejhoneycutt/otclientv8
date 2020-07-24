@@ -1,24 +1,21 @@
 -- CONFIG
-APP_NAME = "otclientv8"  -- important, change it, it's name for config dir and files in appdata
+APP_NAME = "Olympus"  -- important, change it, it's name for config dir and files in appdata
 APP_VERSION = 1342       -- client version for updater and login to identify outdated client
-DEFAULT_LAYOUT = "retro" -- on android it's forced to "mobile", check code bellow
+DEFAULT_LAYOUT = "default" -- on android it's forced to "mobile", check code bellow
 
 -- If you don't use updater or other service, set it to updater = ""
 Services = {
-  website = "http://otclient.ovh", -- currently not used
-  updater = "http://otclient.ovh/api/updater.php",
+  website = "https://olympusot.com", -- currently not used
+  updater = "",
   stats = "",
-  crash = "http://otclient.ovh/api/crash.php",
-  feedback = "http://otclient.ovh/api/feedback.php",
-  status = "http://otclient.ovh/api/status.php"
+  crash = "https://olympusot.com/api/crash.php",
+  feedback = "https://olympusot.com/api/feedback.php",
+  status = "https://olympusot.com/api/modules/launcher/serverstatus.php"
 }
 
 -- Servers accept http login url, websocket login url or ip:port:version
 Servers = {
---[[  OTClientV8 = "http://otclient.ovh/api/login.php",
-  OTClientV8c = "otclient.ovh:7171",
-  OTClientV8Test = "http://otclient.ovh/api/login2.php",
-  LocalTestServ = "127.0.0.1:7171:1098:110:30:93"  ]]
+Olympus = "https://olympusot.com/login.php"
 }
 
 --USE_NEW_ENERGAME = true -- uses entergamev2 based on websockets instead of entergame
