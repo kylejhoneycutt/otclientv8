@@ -1,5 +1,5 @@
 -- CONFIG
-APP_NAME = "Olympus"  -- important, change it, it's name for config dir and files in appdata
+APP_NAME = "OlympusOT"  -- important, change it, it's name for config dir and files in appdata
 APP_VERSION = 1342       -- client version for updater and login to identify outdated client
 DEFAULT_LAYOUT = "default" -- on android it's forced to "mobile", check code bellow
 
@@ -19,9 +19,9 @@ Olympus = "https://olympusot.com/login.php"
 }
 
 --USE_NEW_ENERGAME = true -- uses entergamev2 based on websockets instead of entergame
-ALLOW_CUSTOM_SERVERS = true -- if true it shows option ANOTHER on server list
+ALLOW_CUSTOM_SERVERS = false -- if true it shows option ANOTHER on server list
 
-g_app.setName("OTCv8")
+g_app.setName("OlympusOT")
 -- CONFIG END
 
 -- print first terminal message
